@@ -1,0 +1,19 @@
+{
+  "name": "db-factory",
+  "version": "1.0.0",
+  "description": "database factory",
+  "main": "db-factory.js",
+  "scripts": {
+    "test": "node db-factory.js"
+  },
+  "keywords": [
+    "database",
+    "sql"
+  ],
+  "author": "dan.qi",
+  "license": "ISC",
+  "dependencies": {
+    "mysql": "^2.15.0",
+    "q": "^1.5.1"
+  }
+}
