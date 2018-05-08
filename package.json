@@ -16,5 +16,6 @@
     "mysql": "^2.15.0",
     "q": "^1.5.1"
   },
-  "private":true
+  "private":true,
+  "homepage":"https://github.com/iqidan/db-factory"
 }
