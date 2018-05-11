@@ -630,7 +630,7 @@
 		var dataLength = dataArr.length;//数据个数
 
 		dataArr.forEach(function(data, i){
-		  if(!isUndefinedOrNull(data)){//是否存在
+		  if(data){//是否存在
 		    var whereStr = " where 1=1";
 		    var keyLength = keys.length;
 		    for(var j = 0; j < keyLength; ++j){
